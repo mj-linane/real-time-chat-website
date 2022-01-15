@@ -1,0 +1,99 @@
+html {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#content-container {
+    width: 80%;
+    background-color: white;
+}
+
+#message-container {
+    margin: 30px;
+}
+
+#send-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#send-container input {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+#message {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #bdc3c7;
+    color: #34495e;
+    box-shadow: none;
+    display: block;
+    background-color: #fff;
+    background-clip: padding-box;
+    width: 100%;
+    line-height: 1.4;
+    transition: border 0.25s linear, color 0.25s linear,
+    background-color 0.25s linear;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+input {
+    height: 2em;
+    padding: 6px 10px;
+    font: 400 1em Arial;
+    text-rendering: auto;
+    text-transform: none;
+    text-indent: 0;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+}
+
+button {
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    background-color: #1abc9c;
+    border: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 15px;
+}

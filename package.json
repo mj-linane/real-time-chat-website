@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  },
+  "name": "chat-app-client",
+  "version": "1.0.0",
+  "description": "Client-side for realtime chat app",
+  "main": "app.js",
+  "author": "MJ Linane",
+  "license": "ISC"
+}
