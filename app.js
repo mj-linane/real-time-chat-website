@@ -21,8 +21,11 @@ socket.on('user-connected', name => {
 messageForm.addEventListener('submit', e => {
     e.preventDefault()
     const message = messageInput.value
-    appendMessage(`${userName}: ${message}`)
-    socket.emit('send-chat-message', message)
+    // Check to see if the message is empty
+    if (message !== '') {
+        appendMessage(`You: ${message}`)
+        socket.emit('send-chat-message', message)
+    }
     messageInput.value = ''
 })
 
